@@ -9,4 +9,4 @@
     
 2.准备一个tomcat容器
     <1>把xjtu文件夹整个copy进tomcat的发布目录，一般在这个目录下tomcat/webapps
-    <2>访问127.0.0.1:8080/xjtu(大概长这个样子的url)
+    <2>访问127.0.0.1:8080/xjtu(大概长这个样子的url) 

@@ -29,7 +29,7 @@ public class LinearSortBucketApp
         //
         for(int i = 0; i < len; i++)
         {
-            int tmp = (int) Math.floor(10 * arr[i]); // 0.7��0.79���ڵ�8��Ͱ��,���7����һ��Ͱ��0��0.09
+            int tmp = (int) Math.floor(10 * arr[i]); //
             if(null == lls[tmp])
                 lls[tmp] = new LinkedList();
             lls[tmp].add(arr[i]);

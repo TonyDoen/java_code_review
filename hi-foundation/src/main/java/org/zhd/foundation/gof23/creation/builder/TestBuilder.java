@@ -1,10 +1,8 @@
 package org.zhd.foundation.gof23.creation.builder;
 
-public class TestBuilder
-{
-    
-    public static void main(String[] args)
-    {
+public class TestBuilder {
+
+    public static void main(String[] args) {
         Builder br = new Builder();
         br.produceMailSender(2);
     }

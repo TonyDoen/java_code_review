@@ -1,9 +1,7 @@
 package org.zhd.foundation.gof23.structure.decorator;
 
-public class TestDecorator
-{
-    public static void main(String[] args)
-    {
+public class TestDecorator {
+    public static void main(String[] args) {
         Sourceable source = new Source();
         Sourceable obj = new Decorator(source);
         obj.method();

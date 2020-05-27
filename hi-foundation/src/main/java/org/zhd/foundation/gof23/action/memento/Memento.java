@@ -1,22 +1,18 @@
 package org.zhd.foundation.gof23.action.memento;
 
-public class Memento
-{
+public class Memento {
     private String value;
-    
-    public Memento(String value)
-    {
+
+    public Memento(String value) {
         this.value = value;
     }
-    
-    public String getValue()
-    {
+
+    public String getValue() {
         return value;
     }
-    
-    public void setValue(String value)
-    {
+
+    public void setValue(String value) {
         this.value = value;
     }
-    
+
 }

@@ -1,16 +1,14 @@
 package org.zhd.foundation.gof23.structure.bridge;
 
-public class TestBridge extends Bridge
-{
-    public static void main(String[] args)
-    {
+public class TestBridge extends Bridge {
+    public static void main(String[] args) {
         Bridge bridge = new MyBridge();
-        
+
         // 调用source1
         Sourceable s1 = new Source1();
         bridge.setSource(s1);
         bridge.method();
-        
+
         Sourceable s2 = new Source2();
         bridge.setSource(s2);
         bridge.method();

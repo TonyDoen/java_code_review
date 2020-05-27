@@ -1,29 +1,25 @@
 package org.zhd.foundation.gof23.structure.facade;
 
-public class Computer
-{
+public class Computer {
     private CPU cpu;
     private Memory memory;
     private Disk disk;
-    
-    public Computer()
-    {
+
+    public Computer() {
         cpu = new CPU();
         memory = new Memory();
         disk = new Disk();
     }
-    
-    public void startup()
-    {
+
+    public void startup() {
         System.out.println("start the computer.");
         cpu.startup();
         memory.startup();
         disk.startup();
         System.out.println("start the computer finished.");
     }
-    
-    public void shutdown()
-    {
+
+    public void shutdown() {
         System.out.println("begin to close the computer.");
         disk.shutdown();
         memory.shutdown();

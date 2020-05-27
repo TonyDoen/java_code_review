@@ -1,9 +1,7 @@
 package org.zhd.foundation.gof23.action.command;
 
-public class TestInvoker
-{
-    public static void main(String[] args)
-    {
+public class TestInvoker {
+    public static void main(String[] args) {
         Receiver receiver = new Receiver();
         Command cmd = new MyCommand(receiver);
         Invoker invoker = new Invoker(cmd);

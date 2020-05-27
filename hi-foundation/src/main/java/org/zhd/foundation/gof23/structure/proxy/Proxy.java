@@ -1,30 +1,25 @@
 package org.zhd.foundation.gof23.structure.proxy;
 
-public class Proxy implements Sourceable
-{
+public class Proxy implements Sourceable {
     private Source source;
-    
-    public Proxy()
-    {
+
+    public Proxy() {
         super();
         this.source = new Source();
     }
-    
+
     @Override
-    public void method()
-    {
+    public void method() {
         before();
         source.method();
         after();
     }
-    
-    private void before()
-    {
+
+    private void before() {
         System.out.println("before proxy");
     }
-    
-    private void after()
-    {
+
+    private void after() {
         System.out.println("after proxy");
     }
 }

@@ -1,10 +1,8 @@
 package org.zhd.foundation.gof23.action.interpreter;
 
-public class Test
-{
-    
-    public static void main(String[] args)
-    {
+public class Test {
+
+    public static void main(String[] args) {
         int result = new Minus().interpret(new Context(9, 2));
         System.out.println(result);
     }

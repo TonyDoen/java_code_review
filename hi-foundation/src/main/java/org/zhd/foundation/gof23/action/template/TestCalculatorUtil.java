@@ -1,10 +1,8 @@
 package org.zhd.foundation.gof23.action.template;
 
-public class TestCalculatorUtil
-{
-    
-    public static void main(String[] args)
-    {
+public class TestCalculatorUtil {
+
+    public static void main(String[] args) {
         String exp = "1+1";
         CalculatorUtil cal = new Plus();
         int result = cal.calculate(exp, "\\+");

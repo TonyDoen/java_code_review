@@ -1,8 +1,7 @@
 package org.zhd.foundation.gof23.structure.flyweight;
 
-public class Flyweight
-{
-    
+public class Flyweight {
+
 }
 
 // 享元模式

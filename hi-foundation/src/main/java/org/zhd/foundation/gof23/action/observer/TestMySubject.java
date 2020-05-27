@@ -1,10 +1,8 @@
 package org.zhd.foundation.gof23.action.observer;
 
-public class TestMySubject
-{
-    
-    public static void main(String[] args)
-    {
+public class TestMySubject {
+
+    public static void main(String[] args) {
         Subject st = new MySubject();
         st.add(new Observer1());
         st.add(new Observer2());

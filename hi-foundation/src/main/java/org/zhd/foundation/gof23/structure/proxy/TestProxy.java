@@ -1,10 +1,8 @@
 package org.zhd.foundation.gof23.structure.proxy;
 
-public class TestProxy
-{
-    
-    public static void main(String[] args)
-    {
+public class TestProxy {
+
+    public static void main(String[] args) {
         Sourceable source = new Proxy();
         source.method();
     }

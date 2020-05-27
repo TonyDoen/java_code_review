@@ -1,16 +1,13 @@
 package org.zhd.foundation.gof23.action.chain;
 
-public abstract class AbstractHandler
-{
+public abstract class AbstractHandler {
     private Handler handler;
-    
-    public Handler getHandler()
-    {
+
+    public Handler getHandler() {
         return handler;
     }
-    
-    public void setHandler(Handler handler)
-    {
+
+    public void setHandler(Handler handler) {
         this.handler = handler;
     }
 }

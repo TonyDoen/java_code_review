@@ -14,6 +14,7 @@
 | 0239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | [java](./src/main/java/me/meet/leetcode/hard/SlidingWindowMaximum.java) | Hard |
 | 0765 | [Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/) | [java](./src/main/java/me/meet/leetcode/hard/CouplesHoldingHands.java) | Hard |
 | 0780 | [Reaching Points](https://leetcode.com/problems/reaching-points/) | [java](./src/main/java/me/meet/leetcode/hard/ReachingPoints.java) | Hard |
+| 0798 | [Smallest Rotation With Highest Score](https://leetcode.com/problems/smallest-rotation-with-highest-score/) | [java](./src/main/java/me/meet/leetcode/hard/SmallestRotationWithHighestScore.java) | Hard |
 | 0895 | [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/) | [java](./src/main/java/me/meet/leetcode/hard/MaximumFrequencyStack.java) | Hard |
 | 0899 | [Orderly Queue](https://leetcode.com/problems/orderly-queue/) | [java](./src/main/java/me/meet/leetcode/hard/OrderlyQueue.java) | Hard |
 | 0902 | [Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/) | [java](./src/main/java/me/meet/leetcode/hard/NumbersAtMostNGivenDigitSet.java) | Hard |

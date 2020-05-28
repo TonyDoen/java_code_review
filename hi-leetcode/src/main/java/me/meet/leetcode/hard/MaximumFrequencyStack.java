@@ -81,7 +81,7 @@ public final class MaximumFrequencyStack {
         }
     }
 
-    public static void main(String[] args) {
+    private static void testFreqStack() {
         FreqStack fs = new FreqStack();
         fs.push(5);
         fs.push(7);
@@ -98,4 +98,7 @@ public final class MaximumFrequencyStack {
         fs.pop();
     }
 
+    public static void main(String[] args) {
+        testFreqStack();
+    }
 }

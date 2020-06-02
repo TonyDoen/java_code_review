@@ -14,6 +14,7 @@
 | 0135 | [Candy](https://leetcode.com/problems/candy/) | [Java](./src/main/java/me/meet/leetcode/hard/Candy.java) | Hard |
 | 0188 | [Best Time To Buy And Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | [Java](./src/main/java/me/meet/leetcode/hard/BestTimeToBuyAndSellStockIV.java) | Hard |
 | 0239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | [Java](./src/main/java/me/meet/leetcode/hard/SlidingWindowMaximum.java) | Hard |
+| 0329 | [Longest Increasing Path In A Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | [Java](./src/main/java/me/meet/leetcode/hard/LongestIncreasingPathInAMatrix.java) | Hard |
 | 0765 | [Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/) | [Java](./src/main/java/me/meet/leetcode/hard/CouplesHoldingHands.java) | Hard |
 | 0780 | [Reaching Points](https://leetcode.com/problems/reaching-points/) | [Java](./src/main/java/me/meet/leetcode/hard/ReachingPoints.java) | Hard |
 | 0798 | [Smallest Rotation With Highest Score](https://leetcode.com/problems/smallest-rotation-with-highest-score/) | [Java](./src/main/java/me/meet/leetcode/hard/SmallestRotationWithHighestScore.java) | Hard |

@@ -1,4 +1,4 @@
-package me.meet.leetcode.medium;
+package me.meet.leetcode.hard;
 
 public final class LongestIncreasingPathInAMatrix {
     private LongestIncreasingPathInAMatrix() {

@@ -33,3 +33,4 @@
 | 0881 | [Boats To Save People](https://leetcode.com/problems/boats-to-save-people/) | [Java](./src/main/java/me/meet/leetcode/medium/BoatsToSavePeople.java) | Medium |
 | 0894 | [All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/) | [Java](./src/main/java/me/meet/leetcode/medium/AllPossibleFullBinaryTrees.java) | Medium |
 | 0898 | [Bitwise ORs Of Subarrays](https://leetcode.com/problems/bitwise-ors-of-subarrays/) | [Java](./src/main/java/me/meet/leetcode/medium/BitwiseORsOfSubarrays.java) | Medium |
+| 0919 | [Complete Binary Tree Inserter](https://leetcode.com/problems/complete-binary-tree-inserter/) | [Java](./src/main/java/me/meet/leetcode/medium/CompleteBinaryTreeInserter.java) | Medium |

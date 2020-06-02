@@ -7,6 +7,9 @@ import java.util.List;
 import java.util.Map;
 
 public class AllPossibleFullBinaryTrees {
+    private AllPossibleFullBinaryTrees() {
+    }
+
     static class TreeNode {
         int val;
         TreeNode left;

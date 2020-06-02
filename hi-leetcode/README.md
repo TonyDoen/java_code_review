@@ -30,3 +30,4 @@
 | 0445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) | [Java](./src/main/java/me/meet/leetcode/medium/AddTwoNumbersII.java) | Medium |
 | 0797 | [All Paths From Source To Target](https://leetcode.com/problems/all-paths-from-source-to-target/) | [Java](./src/main/java/me/meet/leetcode/medium/AllPathsFromSourceToTarget.java) | Medium |
 | 0894 | [All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/) | [Java](./src/main/java/me/meet/leetcode/medium/AllPossibleFullBinaryTrees.java) | Medium |
+| 0898 | [Bitwise ORs Of Subarrays](https://leetcode.com/problems/bitwise-ors-of-subarrays/) | [Java](./src/main/java/me/meet/leetcode/medium/BitwiseORsOfSubarrays.java) | Medium |

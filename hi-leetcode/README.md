@@ -34,6 +34,7 @@
 | 0445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) | [Java](./src/main/java/me/meet/leetcode/medium/AddTwoNumbersII.java) | Medium |
 | 0450 | [Delete Node In BST](https://leetcode.com/problems/delete-node-in-a-bst/) | [Java](./src/main/java/me/meet/leetcode/medium/DeleteNodeInBST.java) | Medium |
 | 0797 | [All Paths From Source To Target](https://leetcode.com/problems/all-paths-from-source-to-target/) | [Java](./src/main/java/me/meet/leetcode/medium/AllPathsFromSourceToTarget.java) | Medium |
+| 0833 | [Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/) | [Java](./src/main/java/me/meet/leetcode/medium/FindAndReplaceInString.java) | Medium |
 | 0881 | [Boats To Save People](https://leetcode.com/problems/boats-to-save-people/) | [Java](./src/main/java/me/meet/leetcode/medium/BoatsToSavePeople.java) | Medium |
 | 0894 | [All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/) | [Java](./src/main/java/me/meet/leetcode/medium/AllPossibleFullBinaryTrees.java) | Medium |
 | 0898 | [Bitwise ORs Of Subarrays](https://leetcode.com/problems/bitwise-ors-of-subarrays/) | [Java](./src/main/java/me/meet/leetcode/medium/BitwiseORsOfSubarrays.java) | Medium |

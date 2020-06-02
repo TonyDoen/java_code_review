@@ -34,6 +34,7 @@
 | 0442 | [Find All Duplicates In An Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | [Java](./src/main/java/me/meet/leetcode/medium/FindAllDuplicatesInAnArray.java) | Medium |
 | 0445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) | [Java](./src/main/java/me/meet/leetcode/medium/AddTwoNumbersII.java) | Medium |
 | 0450 | [Delete Node In BST](https://leetcode.com/problems/delete-node-in-a-bst/) | [Java](./src/main/java/me/meet/leetcode/medium/DeleteNodeInBST.java) | Medium |
+| 0785 | [Is Graph Bipartite](https://leetcode.com/problems/is-graph-bipartite/) | [Java](./src/main/java/me/meet/leetcode/medium/IsGraphBipartite.java) | Medium |
 | 0797 | [All Paths From Source To Target](https://leetcode.com/problems/all-paths-from-source-to-target/) | [Java](./src/main/java/me/meet/leetcode/medium/AllPathsFromSourceToTarget.java) | Medium |
 | 0802 | [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/) | [Java](./src/main/java/me/meet/leetcode/medium/FindEventualSafeStates.java) | Medium |
 | 0833 | [Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/) | [Java](./src/main/java/me/meet/leetcode/medium/FindAndReplaceInString.java) | Medium |

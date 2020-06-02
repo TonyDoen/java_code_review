@@ -6,7 +6,10 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-public class DifferentWaysToAddParentheses {
+public final class DifferentWaysToAddParentheses {
+    private DifferentWaysToAddParentheses() {
+    }
+
     /**
      * url: https://www.cnblogs.com/grandyang/p/4682458.html
      *

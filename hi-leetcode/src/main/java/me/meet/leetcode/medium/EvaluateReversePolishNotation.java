@@ -53,7 +53,7 @@ public final class EvaluateReversePolishNotation {
         }
         LinkedList<Integer> stack = new LinkedList<>();
         for (String str : arr) {
-            // 是运算符，则计算结果入栈
+            // 是运算符，则计算结果，并入栈
             if ("+".equals(str) || "-".equals(str) || "*".equals(str) || "/".equals(str)) {
                 int second = stack.pop();
                 int first = stack.pop();

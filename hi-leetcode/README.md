@@ -25,6 +25,7 @@
 | 0913 | [Cat and Mouse](https://leetcode.com/problems/cat-and-mouse/) | [Java](./src/main/java/me/meet/leetcode/hard/CatAndMouse.java) | Hard |
 | --- | --- | --- | --- |
 | 0002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Java](./src/main/java/me/meet/leetcode/medium/AddTwoNumbers.java) | Medium |
+| 0005 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Java](./src/main/java/me/meet/leetcode/medium/LongestPalindromicSubstring.java) | Medium |
 | 0103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [Java](./src/main/java/me/meet/leetcode/medium/BinaryTreeZigzagLevelOrderTraversal.java) | Medium |
 | 0121 | [Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Java](./src/main/java/me/meet/leetcode/medium/BestTimeToBuyAndSellStock.java) | Medium |
 | 0122 | [Best Time To Buy And Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Java](./src/main/java/me/meet/leetcode/medium/BestTimeToBuyAndSellStockII.java) | Medium |

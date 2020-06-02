@@ -40,6 +40,7 @@
 | 0833 | [Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/) | [Java](./src/main/java/me/meet/leetcode/medium/FindAndReplaceInString.java) | Medium |
 | 0841 | [Keys And Rooms](https://leetcode.com/problems/keys-and-rooms/) | [Java](./src/main/java/me/meet/leetcode/medium/KeysAndRooms.java) | Medium |
 | 0846 | [Hand Of Straights](https://leetcode.com/problems/hand-of-straights/) | [Java](./src/main/java/me/meet/leetcode/medium/HandOfStraights.java) | Medium |
+| 0875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | [Java](./src/main/java/me/meet/leetcode/medium/KokoEatingBananas.java) | Medium |
 | 0881 | [Boats To Save People](https://leetcode.com/problems/boats-to-save-people/) | [Java](./src/main/java/me/meet/leetcode/medium/BoatsToSavePeople.java) | Medium |
 | 0894 | [All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/) | [Java](./src/main/java/me/meet/leetcode/medium/AllPossibleFullBinaryTrees.java) | Medium |
 | 0898 | [Bitwise ORs Of Subarrays](https://leetcode.com/problems/bitwise-ors-of-subarrays/) | [Java](./src/main/java/me/meet/leetcode/medium/BitwiseORsOfSubarrays.java) | Medium |

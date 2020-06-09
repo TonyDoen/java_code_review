@@ -53,3 +53,4 @@
 | 0904 | [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) | [Java](./src/main/java/me/meet/leetcode/medium/FruitIntoBaskets.java) | Medium |
 | 0918 | [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/) | [Java](./src/main/java/me/meet/leetcode/medium/MaximumSumCircularSubarray.java) | Medium |
 | 0919 | [Complete Binary Tree Inserter](https://leetcode.com/problems/complete-binary-tree-inserter/) | [Java](./src/main/java/me/meet/leetcode/medium/CompleteBinaryTreeInserter.java) | Medium |
+| 0939 | [Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/) | [Java](./src/main/java/me/meet/leetcode/medium/MinimumAreaRectangle.java) | Medium |

@@ -3,7 +3,9 @@ package me.meet.leetcode.medium;
 import java.util.Arrays;
 
 public final class BoatsToSavePeople {
-    private BoatsToSavePeople() {}
+    private BoatsToSavePeople() {
+    }
+
     /**
      * The i-th person has weight people[i], and each boat can carry a maximum weight of limit.
      * Each boat carries at most 2 people at the same time, provided the sum of the weight of those people is at most limit.

@@ -90,10 +90,10 @@ public final class StampingTheSequence {
     }
 
     private static void testMovesToStamp() {
-        String stamp = "abca", target =  "aabcaca";
+        String stamp = "abca", target = "aabcaca";
         int[] res = movesToStamp(stamp, target);
         for (int i : res) {
-            System.out.print(i+", ");
+            System.out.print(i + ", ");
         }
     }
 

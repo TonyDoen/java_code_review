@@ -1,5 +1,7 @@
 package me.meet.leetcode.medium;
 
+import java.util.Arrays;
+
 public final class MinimumFallingPathSum {
     private MinimumFallingPathSum() {
     }
@@ -72,7 +74,58 @@ public final class MinimumFallingPathSum {
         return res;
     }
 
-    public static void main(String[] args) {
+    private final static int OUTER = -101;
 
+    static int minFallingPathSum1(int[][] arr) {
+        if (null == arr || arr.length == 0 || arr[0].length == 0) {
+            return 0;
+        }
+        int[][] dp = new int[arr.length][arr[0].length];
+        for (int[] ints : dp) {
+            /**
+             * 提示：
+             * 1 <= A.length == A[0].length <= 100
+             * -100 <= A[i][j] <= 100
+             */
+            Arrays.fill(ints, OUTER);
+        }
+        int min = Integer.MAX_VALUE;
+        for (int i = 0; i < arr[0].length; i++) {
+            min = Math.min(min, helper(0, i, arr, dp));
+        }
+        return min;
+    }
+
+    private static int helper(int row, int col, int[][] arr, int[][] dp) {
+        int r = arr.length, c = arr[0].length;
+        if (row >= r || col >= c || row < 0 || col < 0) {
+            return Integer.MAX_VALUE;
+        }
+        if (dp[row][col] != OUTER) {
+            return dp[row][col];
+        }
+        int min = Integer.MAX_VALUE;
+        min = Math.min(min, helper(row + 1, col - 1, arr, dp));
+        min = Math.min(min, helper(row + 1, col, arr, dp));
+        min = Math.min(min, helper(row + 1, col + 1, arr, dp));
+        dp[row][col] = arr[row][col];
+        if (min != Integer.MAX_VALUE) {
+            dp[row][col] += min;
+        }
+        return dp[row][col];
+    }
+
+    private static void testMinFallingPathSum() {
+        int[][] src = new int[][]{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+        int res = minFallingPathSum(src);
+        System.out.println(res);
+
+        src = new int[][]{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+        int res1 = minFallingPathSum1(src);
+        System.out.println(res1);
+    }
+
+    public static void main(String[] args) {
+        testMinFallingPathSum();
     }
 }

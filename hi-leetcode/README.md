@@ -23,6 +23,7 @@
 | 0899 | [Orderly Queue](https://leetcode.com/problems/orderly-queue/) | [Java](./src/main/java/me/meet/leetcode/hard/OrderlyQueue.java) | Hard |
 | 0902 | [Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/) | [Java](./src/main/java/me/meet/leetcode/hard/NumbersAtMostNGivenDigitSet.java) | Hard |
 | 0913 | [Cat and Mouse](https://leetcode.com/problems/cat-and-mouse/) | [Java](./src/main/java/me/meet/leetcode/hard/CatAndMouse.java) | Hard |
+| 0927 | [Three Equal Parts](https://leetcode.com/problems/three-equal-parts/) | [Java](./src/main/java/me/meet/leetcode/hard/ThreeEqualParts.java) | Hard |
 | 0936 | [Stamping The Sequence](https://leetcode.com/problems/stamping-the-sequence/) | [Java](./src/main/java/me/meet/leetcode/hard/StampingTheSequence.java) | Hard |
 | 0940 | [Distinct Subsequences II](https://leetcode.com/problems/distinct-subsequences-ii/) | [Java](./src/main/java/me/meet/leetcode/hard/DistinctSubsequencesII.java) | Hard |
 | # | # | # | # |

@@ -1,6 +1,8 @@
 package me.meet.leetcode.medium;
 
-public class PartitionArrayIntoDisjointIntervals {
+public final class PartitionArrayIntoDisjointIntervals {
+    private PartitionArrayIntoDisjointIntervals() {
+    }
     /**
      * url: https://www.cnblogs.com/grandyang/p/11610524.html
      * url:

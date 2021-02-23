@@ -7,6 +7,7 @@
 | --- | ----- | -------- | ---------- |
 | 0004 | [Median Of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Java](./src/main/java/me/meet/leetcode/hard/MedianOfTwoSortedArrays.java) | Hard |
 | 0041 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | [Java](./src/main/java/me/meet/leetcode/hard/FirstMissingPositive.java) | Hard |
+| 0072 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | [Java](./src/main/java/me/meet/leetcode/hard/EditDistance.java) | Hard |
 | 0076 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [Java](./src/main/java/me/meet/leetcode/hard/MinimumWindowSubsequence.java) | Hard |
 | 0097 | [Interleaving String](https://leetcode.com/problems/interleaving-string/) | [Java](./src/main/java/me/meet/leetcode/hard/InterleavingString.java) | Hard |
 | 0123 | [Best Time To Buy And Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | [Java](./src/main/java/me/meet/leetcode/hard/BestTimeToBuyAndSellStockIII.java) | Hard |
@@ -68,6 +69,7 @@
 | 0932 | [Beautiful Array](https://leetcode.com/problems/beautiful-array/) | [Java](./src/main/java/me/meet/leetcode/medium/BeautifulArray.java) | Medium |
 | 0934 | [Shortest Bridge](https://leetcode.com/problems/shortest-bridge/) | [Java](./src/main/java/me/meet/leetcode/medium/ShortestBridge.java) | Medium |
 | 0939 | [Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/) | [Java](./src/main/java/me/meet/leetcode/medium/MinimumAreaRectangle.java) | Medium |
+| 1438 | [Longest Continuous Subarray With Absolute Diff Less Than Or Equal To Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | [Java](./src/main/java/me/meet/leetcode/medium/LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit.java) | Medium |
 | # | # | # | # |
 | 0937 | [Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/) | [Java](./src/main/java/me/meet/leetcode/easy/ReorderDataInLogFiles.java) | Easy |
 | 0938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | [Java](./src/main/java/me/meet/leetcode/easy/RangeSumOfBST.java) | Easy |

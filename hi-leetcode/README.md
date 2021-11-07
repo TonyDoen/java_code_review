@@ -31,6 +31,7 @@
 | 0002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Java](./src/main/java/me/meet/leetcode/medium/AddTwoNumbers.java) | Medium |
 | 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Java](./src/main/java/me/meet/leetcode/medium/LongestSubstringWithoutRepeatingCharacters.java) | Medium |
 | 0005 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Java](./src/main/java/me/meet/leetcode/medium/LongestPalindromicSubstring.java) | Medium |
+| 0016 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | [Java](./src/main/java/me/meet/leetcode/medium/_3SumClosest.java) | Medium |
 | 0103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [Java](./src/main/java/me/meet/leetcode/medium/BinaryTreeZigzagLevelOrderTraversal.java) | Medium |
 | 0121 | [Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Java](./src/main/java/me/meet/leetcode/medium/BestTimeToBuyAndSellStock.java) | Medium |
 | 0122 | [Best Time To Buy And Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Java](./src/main/java/me/meet/leetcode/medium/BestTimeToBuyAndSellStockII.java) | Medium |
@@ -71,6 +72,7 @@
 | 0939 | [Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/) | [Java](./src/main/java/me/meet/leetcode/medium/MinimumAreaRectangle.java) | Medium |
 | 1438 | [Longest Continuous Subarray With Absolute Diff Less Than Or Equal To Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | [Java](./src/main/java/me/meet/leetcode/medium/LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit.java) | Medium |
 | # | # | # | # |
+| 0001 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Java](./src/main/java/me/meet/leetcode/easy/TwoSum.java) | Easy |
 | 0937 | [Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/) | [Java](./src/main/java/me/meet/leetcode/easy/ReorderDataInLogFiles.java) | Easy |
 | 0938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | [Java](./src/main/java/me/meet/leetcode/easy/RangeSumOfBST.java) | Easy |
 | 0939 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Java](./src/main/java/me/meet/leetcode/easy/ValidAnagram.java) | Easy |

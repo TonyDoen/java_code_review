@@ -52,8 +52,9 @@ public final class KthSmallestElementInASortedMatrix {
      */
 
     /**
-     * url: https://leetcode.cn/problems/kth-smallest-element-in-a-sorted-matrix/solution/shi-yong-dui-heapde-si-lu-xiang-jie-ling-fu-python/
-     * url: https://blog.csdn.net/lanheboyuan/article/details/107096011
+     * url: 
+     * https://leetcode.cn/problems/kth-smallest-element-in-a-sorted-matrix/solution/shi-yong-dui-heapde-si-lu-xiang-jie-ling-fu-python/
+     * https://blog.csdn.net/lanheboyuan/article/details/107096011
      *
      * 1、堆排序+记录行数
      * 因为矩阵从左往右、从上到下依次是有序的，如果矩阵有两行，那么就变成两个有序矩阵合并求第k小元素，这就是归并排序的最基础形式；
@@ -80,12 +81,100 @@ public final class KthSmallestElementInASortedMatrix {
         return heap.peek();
     }
 
+    static Integer kthSmallestH(int[][] matrix, int k) {
+        int[] arr = new int[k];
+        int row = matrix.length, col = matrix[0].length;
+        int count = 0, i = 0, j = 0;
+        for (; i < row; i++) {
+            for (j = 0; j < col; j++) {
+                if (count >= k) {
+                    break;
+                }
+                int cur = matrix[i][j];
+                arr[count++] = cur;
+            }
+            if (count >= k) {
+                break;
+            }
+        }
+        for (int x = (k - 1) / 2; x >= 0; x--) {
+            //从第一个非叶子结点从下至上，从右至左调整结构
+            downAdjust(arr, x, k);
+        }
+        for (; i < row; i++) {
+            for (; j < col; j++) {
+                int cur = matrix[i][j];
+                if (cur < arr[0]) {
+                    arr[0] = cur;
+                    downAdjust(arr, 0, k);
+                }
+            }
+            j = 0;
+        }
+        return arr[0];
+    }
+
+    // 大根堆
+    private static void downAdjust(int[] arr, int p, int k) {
+        // arr = int[k+1];
+        // parent = i, left = 2i+1, right = 2i+2, i < k
+
+        //将temp作为父节点
+        int tmp = arr[p];
+        //左孩子
+        int l = 2 * p + 1;
+        while (l < k) {
+            //右孩子
+            int r = l + 1;
+            // 如果有右孩子结点，并且右孩子结点的值大于左孩子结点，则选取右孩子结点
+            if (r < k && arr[l] < arr[r]) {
+                l++;
+            }
+
+            // 如果父结点的值已经大于孩子结点的值，则直接结束
+            if (tmp >= arr[l]) {
+                break;
+            }
+
+            // 把孩子结点的值赋给父结点
+            arr[p] = arr[l];
+
+            //选取孩子结点的左孩子结点,继续向下筛选
+            p = l;
+            l = 2 * l + 1;
+        }
+        arr[p] = tmp;
+    }
+    /**
+     * 创建堆，
+     * @param arr 待排序列
+     */
+    private static void heapSort(int[] arr) {
+        //创建堆
+        for (int i = (arr.length - 1) / 2; i >= 0; i--) {
+            //从第一个非叶子结点从下至上，从右至左调整结构
+            downAdjust(arr, i, arr.length);
+        }
+
+        //调整堆结构+交换堆顶元素与末尾元素
+        for (int i = arr.length - 1; i > 0; i--) {
+            //将堆顶元素与末尾元素进行交换
+            int temp = arr[i];
+            arr[i] = arr[0];
+            arr[0] = temp;
+
+            //重新对堆进行调整
+            downAdjust(arr, 0, i);
+        }
+    }
+
+
     /**
      * url:
      * https://www.superweb999.com/article/280646.html
      * https://zhuanlan.zhihu.com/p/140541322
      * https://www.programminghunter.com/article/7306413754/
-     * 
+     *
      * 2. 二分查找
      * 矩阵内的元素是从左上到右下递增的，整个二维数组中 matrix[0][0] 为最小值，matrix[n−1][n−1] 为最大值，现在将其分别记作 left 和 right。
      * 任取一个数 mid 满足 left ≤ mid ≤ right，那么矩阵中不大于 mid 的数，肯定全部分布在矩阵的左上角。
@@ -151,12 +240,22 @@ public final class KthSmallestElementInASortedMatrix {
 
     private static void testFindK() {
         int[][] arr = new int[][]{
-            {1,2,3,4},
-            {2,3,4,5},
-            {3,4,5,6},
-            {4,5,6,7}};
-        int k = 3;
+            {1, 2, 3, 4},
+            {3, 3, 4, 5},
+            {3, 4, 5, 6},
+            {4, 5, 6, 7}};
+        int k = 8;
+
+//        int[][] arr = new int[][]{
+//            {1, 5, 9},
+//            {10, 11, 13},
+//            {12, 13, 15}};
+//        int k = 8;
+
         int rs = kthSmallest(arr, k);
+        System.out.println(rs);
+
+        rs = kthSmallestH(arr, k);
         System.out.println(rs);
 
         rs = kthSmallestBS(arr, k);
@@ -165,5 +264,6 @@ public final class KthSmallestElementInASortedMatrix {
 
     public static void main(String[] args) {
         testFindK();
+        heapSort(new int[]{-1, 0, 3, 7, 1, 5});
     }
 }
